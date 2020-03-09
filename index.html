@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form registration</title>
+</head>
+<body>
+  <div class="form-reg">
+    <h1>Форма реєстрації</h1>
+  </div>
+  <div>
+  <form> 
+    <label for="name">Ім'я</label>
+    <input type="text" required placeholder="Vasyl Volkov">
+  </div>
+    <div class="radio">
+     <span>Стать</span>
+     <label>
+       <input type="radio" name="sex" value="man">Чоловіча
+       <div class="radio-control Male"></div>
+     </label>
+     <label>
+      <input type="radio" name="sex" value="girl">Жіноча
+      <div class="radio-control famel"></div>
+    </label>
+   </div>
+   <div>
+     <label for="email"></label>
+     <input type="email" name="email" required>
+   </div>
+   <div>
+     <label for="country">Місто</label>
+     <select name="country">
+       <option value="KYIV">Київ</option>
+       <option value="Chernivtci">Чернівці</option>
+       <option value="Lviv">Львів</option>
+       <option value="Ivano-Frankivsk">Івано-Франківськ</option>
+     </select>
+     <div class="select-arrow"></div>
+   </div>
+  </form> 
+</body>
+</html>
